@@ -70,7 +70,7 @@ Yike.run(['$rootScope',function($rootScope){
 		if($rootScope.collapsed) {
 			// 获取所有导航列表
 			var navList = document.querySelectorAll('.navs dd');
-			console.log(navList);
+			// console.log(navList);
 			for(var i = 0; i < navList.length; i ++){
 				navList[i].style.transform = 'translate(0)';
 				navList[i].style.transitionDelay = '0.2s';

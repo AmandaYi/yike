@@ -19,32 +19,32 @@
 					<span>登录</span>
 				</dt>
 				<dd class="active">
-					<a href="#/home" class="icon-home">
-						<span>今日一刻</span>
+					<a href="#/home" class="icon-home" ng-click="toggleNav()">
+						<span>最美一刻</span>
 					</a>
 				</dd>
 				<dd>
-					<a href="#/older" class="icon-file-empty">
+					<a href="#/older" class="icon-file-empty" ng-click="toggleNav()">
 						<span>往期内容</span>
 					</a>
 				</dd>
 				<dd>
-					<a href="#/author" class="icon-pencil">
+					<a href="#/author" class="icon-pencil" ng-click="toggleNav()">
 						<span>热门作者</span>
 					</a>
 				</dd>
 				<dd>
-					<a href="#/list" class="icon-menu">
+					<a href="#/list" class="icon-menu" ng-click="toggleNav()">
 						<span>栏目浏览</span>
 					</a>
 				</dd>
 				<dd>
-					<a href="#/favourite" class="icon-heart">
+					<a href="#/favourite" class="icon-heart" ng-click="toggleNav()">
 						<span>我的喜欢</span>
 					</a>
 				</dd>
 				<dd>
-					<a href="#/settings" class="icon-cog">
+					<a href="#/settings" class="icon-cog" ng-click="toggleNav()">
 						<span>设置</span>
 					</a>
 				</dd>
@@ -58,7 +58,7 @@
 			<!-- 头部 -->
 			<div ng-class="{header:true,collapse:collapsed}">
 				<a href="javascript:;" class="menu icon-menu" ng-click="toggleNav()"></a>
-				<h2>今日一刻</h2>
+				<h2>最美一刻</h2>
 				<a href="javascript:;" class="search icon-search"></a>
 			</div>
 			<!-- 主体 -->
